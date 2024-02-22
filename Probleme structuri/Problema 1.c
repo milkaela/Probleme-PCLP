@@ -1,4 +1,3 @@
-
 //enunt: https://imgur.com/a/iWR63h8
 
 #include<stdio.h>
@@ -47,7 +46,6 @@ void selectie(Apart adm[],Apart ap_d[],int nr_ap,int *nr)
         {
             ap_d[k]=adm[i];
             k++;
-
         }
     }
     *nr=k;
@@ -105,4 +103,3 @@ int main ()
     printf("suma este: %.2f", suma);
     return 0;
 }
-
